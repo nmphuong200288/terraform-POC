@@ -50,7 +50,7 @@ resource "aws_subnet" "rds_subnet" {
   # availability_zone = var.availability_zone[count.index]
 
   tags = {
-    "Name" = "${var.tags_name["my_rds_subnet"]}-${count.index + 1}"
+    "Name" = "${var.tags_name["my_rds_subnet"]}-${count.index + 5}"
   }
 }
 
