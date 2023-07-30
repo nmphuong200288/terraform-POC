@@ -18,6 +18,6 @@ output "aws_account_id" {
     value = aws_subnet.public_subnet[0].owner_id
 }
 
-output "public_subnet_arn" {
-    value = aws_subnet.public_subnet[*].arn
-}
+# output "public_subnet_arn" {
+#     value = aws_subnet.public_subnet[*].arn
+# }
